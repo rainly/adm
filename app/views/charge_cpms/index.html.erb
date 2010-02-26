@@ -1,0 +1,28 @@
+<h1>Listing charge_cpms</h1>
+
+<table>
+  <tr>
+    <th>Unit price</th>
+    <th>Discount</th>
+    <th>Total budget</th>
+    <th>Priority</th>
+    <th>Daily threshold</th>
+  </tr>
+
+<% @charge_cpms.each do |charge_cpm| %>
+  <tr>
+    <td><%=h charge_cpm.unit_price %></td>
+    <td><%=h charge_cpm.discount %></td>
+    <td><%=h charge_cpm.total_budget %></td>
+    <td><%=h charge_cpm.priority %></td>
+    <td><%=h charge_cpm.daily_threshold %></td>
+    <td><%= link_to 'Show', charge_cpm %></td>
+    <td><%= link_to 'Edit', edit_charge_cpm_path(charge_cpm) %></td>
+    <td><%= link_to 'Destroy', charge_cpm, :confirm => 'Are you sure?', :method => :delete %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New charge_cpm', new_charge_cpm_path %>

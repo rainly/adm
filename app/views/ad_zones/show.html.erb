@@ -1,0 +1,43 @@
+<p>
+  <b>Site:</b>
+  <%=h @ad_zone.site_id %>
+</p>
+
+<p>
+  <b>Owner:</b>
+  <%=h @ad_zone.owner_id %>
+</p>
+
+<p>
+  <b>Category:</b>
+  <%=h @ad_zone.category_id %>
+</p>
+
+<p>
+  <b>Charge type:</b>
+  <%=h @ad_zone.charge_type_id %>
+</p>
+
+<p>
+  <b>Status:</b>
+  <%=h @ad_zone.status_id %>
+</p>
+
+<p>
+  <b>Name:</b>
+  <%=h @ad_zone.name %>
+</p>
+
+<p>
+  <b>Size:</b>
+  <%=h @ad_zone.size %>
+</p>
+
+<p>
+  <b>Description:</b>
+  <%=h @ad_zone.description %>
+</p>
+
+
+<%= link_to 'Edit', edit_ad_zone_path(@ad_zone) %> |
+<%= link_to 'Back', ad_zones_path %>

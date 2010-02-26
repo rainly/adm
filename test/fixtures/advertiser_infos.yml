@@ -1,0 +1,13 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  owner_id: 1
+  real_user_id: 1
+  network_id: 1
+  name: MyString
+
+two:
+  owner_id: 1
+  real_user_id: 1
+  network_id: 1
+  name: MyString

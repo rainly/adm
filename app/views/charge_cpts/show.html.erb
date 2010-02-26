@@ -1,0 +1,13 @@
+<p>
+  <b>Unit price:</b>
+  <%=h @charge_cpt.unit_price %>
+</p>
+
+<p>
+  <b>Discount:</b>
+  <%=h @charge_cpt.discount %>
+</p>
+
+
+<%= link_to 'Edit', edit_charge_cpt_path(@charge_cpt) %> |
+<%= link_to 'Back', charge_cpts_path %>

@@ -1,0 +1,24 @@
+<h1>Editing target_def</h1>
+
+<% form_for(@target_def) do |f| %>
+  <%= f.error_messages %>
+
+  <p>
+    <%= f.label :name %><br />
+    <%= f.text_field :name %>
+  </p>
+  <p>
+    <%= f.label :data_type %><br />
+    <%= f.text_field :data_type %>
+  </p>
+  <p>
+    <%= f.label :available_value %><br />
+    <%= f.text_field :available_value %>
+  </p>
+  <p>
+    <%= f.submit 'Update' %>
+  </p>
+<% end %>
+
+<%= link_to 'Show', @target_def %> |
+<%= link_to 'Back', target_defs_path %>

@@ -1,0 +1,13 @@
+<p>
+  <b>Campaign:</b>
+  <%=h @ad_boards_campaign.campaign_id %>
+</p>
+
+<p>
+  <b>Ad board:</b>
+  <%=h @ad_boards_campaign.ad_board_id %>
+</p>
+
+
+<%= link_to 'Edit', edit_ad_boards_campaign_path(@ad_boards_campaign) %> |
+<%= link_to 'Back', ad_boards_campaigns_path %>

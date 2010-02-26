@@ -1,0 +1,28 @@
+<p>
+  <b>Campaign:</b>
+  <%=h @display_zone.campaign_id %>
+</p>
+
+<p>
+  <b>Ad zone:</b>
+  <%=h @display_zone.ad_zone_id %>
+</p>
+
+<p>
+  <b>Expression:</b>
+  <%=h @display_zone.expression %>
+</p>
+
+<p>
+  <b>Name:</b>
+  <%=h @display_zone.name %>
+</p>
+
+<p>
+  <b>Owner:</b>
+  <%=h @display_zone.owner_id %>
+</p>
+
+
+<%= link_to 'Edit', edit_display_zone_path(@display_zone) %> |
+<%= link_to 'Back', display_zones_path %>

@@ -1,0 +1,34 @@
+<h1>Listing ad_zones</h1>
+
+<table>
+  <tr>
+    <th>Site</th>
+    <th>Owner</th>
+    <th>Category</th>
+    <th>Charge type</th>
+    <th>Status</th>
+    <th>Name</th>
+    <th>Size</th>
+    <th>Description</th>
+  </tr>
+
+<% @ad_zones.each do |ad_zone| %>
+  <tr>
+    <td><%=h ad_zone.site_id %></td>
+    <td><%=h ad_zone.owner_id %></td>
+    <td><%=h ad_zone.category_id %></td>
+    <td><%=h ad_zone.charge_type_id %></td>
+    <td><%=h ad_zone.status_id %></td>
+    <td><%=h ad_zone.name %></td>
+    <td><%=h ad_zone.size %></td>
+    <td><%=h ad_zone.description %></td>
+    <td><%= link_to 'Show', ad_zone %></td>
+    <td><%= link_to 'Edit', edit_ad_zone_path(ad_zone) %></td>
+    <td><%= link_to 'Destroy', ad_zone, :confirm => 'Are you sure?', :method => :delete %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New ad_zone', new_ad_zone_path %>

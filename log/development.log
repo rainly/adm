@@ -17,3 +17,712 @@ ActiveScaffold: extending RESTful routes for charge_cpts
 ActiveScaffold: extending RESTful routes for charge_cpms
 ActiveScaffold: extending RESTful routes for users
 ActiveScaffold: extending RESTful routes for campaigns
+action_view is patched by ext_rails
+ActiveScaffold: extending RESTful routes for ad_zone_categories
+ActiveScaffold: extending RESTful routes for site_categories
+ActiveScaffold: extending RESTful routes for site_categories
+ActiveScaffold: extending RESTful routes for ad_zone_categories
+ActiveScaffold: extending RESTful routes for display_zones
+ActiveScaffold: extending RESTful routes for targets
+ActiveScaffold: extending RESTful routes for sites
+ActiveScaffold: extending RESTful routes for advertisers
+ActiveScaffold: extending RESTful routes for networks
+ActiveScaffold: extending RESTful routes for publishers
+ActiveScaffold: extending RESTful routes for orders
+ActiveScaffold: extending RESTful routes for ad_boards
+ActiveScaffold: extending RESTful routes for ad_zones
+ActiveScaffold: extending RESTful routes for advertisements
+ActiveScaffold: extending RESTful routes for charge_cpts
+ActiveScaffold: extending RESTful routes for charge_cpms
+ActiveScaffold: extending RESTful routes for users
+ActiveScaffold: extending RESTful routes for campaigns
+action_view is patched by ext_rails
+ActiveScaffold: extending RESTful routes for ad_zone_categories
+ActiveScaffold: extending RESTful routes for site_categories
+ActiveScaffold: extending RESTful routes for site_categories
+ActiveScaffold: extending RESTful routes for ad_zone_categories
+ActiveScaffold: extending RESTful routes for display_zones
+ActiveScaffold: extending RESTful routes for targets
+ActiveScaffold: extending RESTful routes for sites
+ActiveScaffold: extending RESTful routes for advertisers
+ActiveScaffold: extending RESTful routes for networks
+ActiveScaffold: extending RESTful routes for publishers
+ActiveScaffold: extending RESTful routes for orders
+ActiveScaffold: extending RESTful routes for ad_boards
+ActiveScaffold: extending RESTful routes for ad_zones
+ActiveScaffold: extending RESTful routes for advertisements
+ActiveScaffold: extending RESTful routes for charge_cpts
+ActiveScaffold: extending RESTful routes for charge_cpms
+ActiveScaffold: extending RESTful routes for users
+ActiveScaffold: extending RESTful routes for campaigns
+
+
+Processing MembersController#index (for 127.0.0.1 at 2010-02-27 00:07:23) [GET]
+  [4;36;1mMember Load (2.2ms)[0m   [0;1mSELECT * FROM "cpx_members" [0m
+Rendering template within layouts/members
+Rendering members/index
+Completed in 165ms (View: 130, DB: 2) | 200 OK [http://localhost/]
+action_view is patched by ext_rails
+ActiveScaffold: extending RESTful routes for ad_zone_categories
+ActiveScaffold: extending RESTful routes for site_categories
+ActiveScaffold: extending RESTful routes for site_categories
+ActiveScaffold: extending RESTful routes for ad_zone_categories
+ActiveScaffold: extending RESTful routes for display_zones
+ActiveScaffold: extending RESTful routes for targets
+ActiveScaffold: extending RESTful routes for sites
+ActiveScaffold: extending RESTful routes for advertisers
+ActiveScaffold: extending RESTful routes for networks
+ActiveScaffold: extending RESTful routes for publishers
+ActiveScaffold: extending RESTful routes for orders
+ActiveScaffold: extending RESTful routes for ad_boards
+ActiveScaffold: extending RESTful routes for ad_zones
+ActiveScaffold: extending RESTful routes for advertisements
+ActiveScaffold: extending RESTful routes for charge_cpts
+ActiveScaffold: extending RESTful routes for charge_cpms
+ActiveScaffold: extending RESTful routes for users
+ActiveScaffold: extending RESTful routes for campaigns
+action_view is patched by ext_rails
+ActiveScaffold: extending RESTful routes for ad_zone_categories
+ActiveScaffold: extending RESTful routes for site_categories
+ActiveScaffold: extending RESTful routes for site_categories
+ActiveScaffold: extending RESTful routes for ad_zone_categories
+ActiveScaffold: extending RESTful routes for display_zones
+ActiveScaffold: extending RESTful routes for targets
+ActiveScaffold: extending RESTful routes for sites
+ActiveScaffold: extending RESTful routes for advertisers
+ActiveScaffold: extending RESTful routes for networks
+ActiveScaffold: extending RESTful routes for publishers
+ActiveScaffold: extending RESTful routes for orders
+ActiveScaffold: extending RESTful routes for ad_boards
+ActiveScaffold: extending RESTful routes for ad_zones
+ActiveScaffold: extending RESTful routes for advertisements
+ActiveScaffold: extending RESTful routes for charge_cpts
+ActiveScaffold: extending RESTful routes for charge_cpms
+ActiveScaffold: extending RESTful routes for users
+ActiveScaffold: extending RESTful routes for campaigns
+action_view is patched by ext_rails
+ActiveScaffold: extending RESTful routes for ad_zone_categories
+ActiveScaffold: extending RESTful routes for site_categories
+ActiveScaffold: extending RESTful routes for site_categories
+ActiveScaffold: extending RESTful routes for ad_zone_categories
+ActiveScaffold: extending RESTful routes for display_zones
+ActiveScaffold: extending RESTful routes for targets
+ActiveScaffold: extending RESTful routes for sites
+ActiveScaffold: extending RESTful routes for advertisers
+ActiveScaffold: extending RESTful routes for networks
+ActiveScaffold: extending RESTful routes for publishers
+ActiveScaffold: extending RESTful routes for orders
+ActiveScaffold: extending RESTful routes for ad_boards
+ActiveScaffold: extending RESTful routes for ad_zones
+ActiveScaffold: extending RESTful routes for advertisements
+ActiveScaffold: extending RESTful routes for charge_cpts
+ActiveScaffold: extending RESTful routes for charge_cpms
+ActiveScaffold: extending RESTful routes for users
+ActiveScaffold: extending RESTful routes for campaigns
+  [4;36;1mSQL (1.6ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (1.5ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (1.5ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (1.6ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (1.5ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (1.5ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (1.5ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (1.5ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (1.5ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (1.5ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+action_view is patched by ext_rails
+ActiveScaffold: extending RESTful routes for ad_zone_categories
+ActiveScaffold: extending RESTful routes for site_categories
+ActiveScaffold: extending RESTful routes for site_categories
+ActiveScaffold: extending RESTful routes for ad_zone_categories
+ActiveScaffold: extending RESTful routes for display_zones
+ActiveScaffold: extending RESTful routes for targets
+ActiveScaffold: extending RESTful routes for sites
+ActiveScaffold: extending RESTful routes for advertisers
+ActiveScaffold: extending RESTful routes for networks
+ActiveScaffold: extending RESTful routes for publishers
+ActiveScaffold: extending RESTful routes for orders
+ActiveScaffold: extending RESTful routes for ad_boards
+ActiveScaffold: extending RESTful routes for ad_zones
+ActiveScaffold: extending RESTful routes for advertisements
+ActiveScaffold: extending RESTful routes for charge_cpts
+ActiveScaffold: extending RESTful routes for charge_cpms
+ActiveScaffold: extending RESTful routes for users
+ActiveScaffold: extending RESTful routes for campaigns
+  [4;36;1mSQL (1.5ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+action_view is patched by ext_rails
+ActiveScaffold: extending RESTful routes for ad_zone_categories
+ActiveScaffold: extending RESTful routes for site_categories
+ActiveScaffold: extending RESTful routes for site_categories
+ActiveScaffold: extending RESTful routes for ad_zone_categories
+ActiveScaffold: extending RESTful routes for display_zones
+ActiveScaffold: extending RESTful routes for targets
+ActiveScaffold: extending RESTful routes for sites
+ActiveScaffold: extending RESTful routes for advertisers
+ActiveScaffold: extending RESTful routes for networks
+ActiveScaffold: extending RESTful routes for publishers
+ActiveScaffold: extending RESTful routes for orders
+ActiveScaffold: extending RESTful routes for ad_boards
+ActiveScaffold: extending RESTful routes for ad_zones
+ActiveScaffold: extending RESTful routes for advertisements
+ActiveScaffold: extending RESTful routes for charge_cpts
+ActiveScaffold: extending RESTful routes for charge_cpms
+ActiveScaffold: extending RESTful routes for users
+ActiveScaffold: extending RESTful routes for campaigns
+  [4;36;1mSQL (1.5ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+action_view is patched by ext_rails
+ActiveScaffold: extending RESTful routes for ad_zone_categories
+ActiveScaffold: extending RESTful routes for site_categories
+ActiveScaffold: extending RESTful routes for site_categories
+ActiveScaffold: extending RESTful routes for ad_zone_categories
+ActiveScaffold: extending RESTful routes for display_zones
+ActiveScaffold: extending RESTful routes for targets
+ActiveScaffold: extending RESTful routes for sites
+ActiveScaffold: extending RESTful routes for advertisers
+ActiveScaffold: extending RESTful routes for networks
+ActiveScaffold: extending RESTful routes for publishers
+ActiveScaffold: extending RESTful routes for orders
+ActiveScaffold: extending RESTful routes for ad_boards
+ActiveScaffold: extending RESTful routes for ad_zones
+ActiveScaffold: extending RESTful routes for advertisements
+ActiveScaffold: extending RESTful routes for charge_cpts
+ActiveScaffold: extending RESTful routes for charge_cpms
+ActiveScaffold: extending RESTful routes for users
+ActiveScaffold: extending RESTful routes for campaigns
+  [4;36;1mSQL (1.5ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+action_view is patched by ext_rails
+ActiveScaffold: extending RESTful routes for ad_zone_categories
+ActiveScaffold: extending RESTful routes for site_categories
+ActiveScaffold: extending RESTful routes for site_categories
+ActiveScaffold: extending RESTful routes for ad_zone_categories
+ActiveScaffold: extending RESTful routes for display_zones
+ActiveScaffold: extending RESTful routes for targets
+ActiveScaffold: extending RESTful routes for sites
+ActiveScaffold: extending RESTful routes for advertisers
+ActiveScaffold: extending RESTful routes for networks
+ActiveScaffold: extending RESTful routes for publishers
+ActiveScaffold: extending RESTful routes for orders
+ActiveScaffold: extending RESTful routes for ad_boards
+ActiveScaffold: extending RESTful routes for ad_zones
+ActiveScaffold: extending RESTful routes for advertisements
+ActiveScaffold: extending RESTful routes for charge_cpts
+ActiveScaffold: extending RESTful routes for charge_cpms
+ActiveScaffold: extending RESTful routes for users
+ActiveScaffold: extending RESTful routes for campaigns
+  [4;36;1mSQL (1.6ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+action_view is patched by ext_rails
+ActiveScaffold: extending RESTful routes for ad_zone_categories
+ActiveScaffold: extending RESTful routes for site_categories
+ActiveScaffold: extending RESTful routes for site_categories
+ActiveScaffold: extending RESTful routes for ad_zone_categories
+ActiveScaffold: extending RESTful routes for display_zones
+ActiveScaffold: extending RESTful routes for targets
+ActiveScaffold: extending RESTful routes for sites
+ActiveScaffold: extending RESTful routes for advertisers
+ActiveScaffold: extending RESTful routes for networks
+ActiveScaffold: extending RESTful routes for publishers
+ActiveScaffold: extending RESTful routes for orders
+ActiveScaffold: extending RESTful routes for ad_boards
+ActiveScaffold: extending RESTful routes for ad_zones
+ActiveScaffold: extending RESTful routes for advertisements
+ActiveScaffold: extending RESTful routes for charge_cpts
+ActiveScaffold: extending RESTful routes for charge_cpms
+ActiveScaffold: extending RESTful routes for users
+ActiveScaffold: extending RESTful routes for campaigns
+  [4;36;1mSQL (1.6ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+action_view is patched by ext_rails
+ActiveScaffold: extending RESTful routes for ad_zone_categories
+ActiveScaffold: extending RESTful routes for site_categories
+ActiveScaffold: extending RESTful routes for site_categories
+ActiveScaffold: extending RESTful routes for ad_zone_categories
+ActiveScaffold: extending RESTful routes for display_zones
+ActiveScaffold: extending RESTful routes for targets
+ActiveScaffold: extending RESTful routes for sites
+ActiveScaffold: extending RESTful routes for advertisers
+ActiveScaffold: extending RESTful routes for networks
+ActiveScaffold: extending RESTful routes for publishers
+ActiveScaffold: extending RESTful routes for orders
+ActiveScaffold: extending RESTful routes for ad_boards
+ActiveScaffold: extending RESTful routes for ad_zones
+ActiveScaffold: extending RESTful routes for advertisements
+ActiveScaffold: extending RESTful routes for charge_cpts
+ActiveScaffold: extending RESTful routes for charge_cpms
+ActiveScaffold: extending RESTful routes for users
+ActiveScaffold: extending RESTful routes for campaigns
+  [4;36;1mSQL (1.6ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+action_view is patched by ext_rails
+ActiveScaffold: extending RESTful routes for ad_zone_categories
+ActiveScaffold: extending RESTful routes for site_categories
+ActiveScaffold: extending RESTful routes for site_categories
+ActiveScaffold: extending RESTful routes for ad_zone_categories
+ActiveScaffold: extending RESTful routes for display_zones
+ActiveScaffold: extending RESTful routes for targets
+ActiveScaffold: extending RESTful routes for sites
+ActiveScaffold: extending RESTful routes for advertisers
+ActiveScaffold: extending RESTful routes for networks
+ActiveScaffold: extending RESTful routes for publishers
+ActiveScaffold: extending RESTful routes for orders
+ActiveScaffold: extending RESTful routes for ad_boards
+ActiveScaffold: extending RESTful routes for ad_zones
+ActiveScaffold: extending RESTful routes for advertisements
+ActiveScaffold: extending RESTful routes for charge_cpts
+ActiveScaffold: extending RESTful routes for charge_cpms
+ActiveScaffold: extending RESTful routes for users
+ActiveScaffold: extending RESTful routes for campaigns
+  [4;36;1mSQL (1.6ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+action_view is patched by ext_rails
+ActiveScaffold: extending RESTful routes for ad_zone_categories
+ActiveScaffold: extending RESTful routes for site_categories
+ActiveScaffold: extending RESTful routes for site_categories
+ActiveScaffold: extending RESTful routes for ad_zone_categories
+ActiveScaffold: extending RESTful routes for display_zones
+ActiveScaffold: extending RESTful routes for targets
+ActiveScaffold: extending RESTful routes for sites
+ActiveScaffold: extending RESTful routes for advertisers
+ActiveScaffold: extending RESTful routes for networks
+ActiveScaffold: extending RESTful routes for publishers
+ActiveScaffold: extending RESTful routes for orders
+ActiveScaffold: extending RESTful routes for ad_boards
+ActiveScaffold: extending RESTful routes for ad_zones
+ActiveScaffold: extending RESTful routes for advertisements
+ActiveScaffold: extending RESTful routes for charge_cpts
+ActiveScaffold: extending RESTful routes for charge_cpms
+ActiveScaffold: extending RESTful routes for users
+ActiveScaffold: extending RESTful routes for campaigns
+action_view is patched by ext_rails
+ActiveScaffold: extending RESTful routes for ad_zone_categories
+ActiveScaffold: extending RESTful routes for site_categories
+ActiveScaffold: extending RESTful routes for site_categories
+ActiveScaffold: extending RESTful routes for ad_zone_categories
+ActiveScaffold: extending RESTful routes for display_zones
+ActiveScaffold: extending RESTful routes for targets
+ActiveScaffold: extending RESTful routes for sites
+ActiveScaffold: extending RESTful routes for advertisers
+ActiveScaffold: extending RESTful routes for networks
+ActiveScaffold: extending RESTful routes for publishers
+ActiveScaffold: extending RESTful routes for orders
+ActiveScaffold: extending RESTful routes for ad_boards
+ActiveScaffold: extending RESTful routes for ad_zones
+ActiveScaffold: extending RESTful routes for advertisements
+ActiveScaffold: extending RESTful routes for charge_cpts
+ActiveScaffold: extending RESTful routes for charge_cpms
+ActiveScaffold: extending RESTful routes for users
+ActiveScaffold: extending RESTful routes for campaigns
+action_view is patched by ext_rails
+ActiveScaffold: extending RESTful routes for ad_zone_categories
+ActiveScaffold: extending RESTful routes for site_categories
+ActiveScaffold: extending RESTful routes for site_categories
+ActiveScaffold: extending RESTful routes for ad_zone_categories
+ActiveScaffold: extending RESTful routes for display_zones
+ActiveScaffold: extending RESTful routes for targets
+ActiveScaffold: extending RESTful routes for sites
+ActiveScaffold: extending RESTful routes for advertisers
+ActiveScaffold: extending RESTful routes for networks
+ActiveScaffold: extending RESTful routes for publishers
+ActiveScaffold: extending RESTful routes for orders
+ActiveScaffold: extending RESTful routes for ad_boards
+ActiveScaffold: extending RESTful routes for ad_zones
+ActiveScaffold: extending RESTful routes for advertisements
+ActiveScaffold: extending RESTful routes for charge_cpts
+ActiveScaffold: extending RESTful routes for charge_cpms
+ActiveScaffold: extending RESTful routes for users
+ActiveScaffold: extending RESTful routes for campaigns
+action_view is patched by ext_rails
+ActiveScaffold: extending RESTful routes for ad_zone_categories
+ActiveScaffold: extending RESTful routes for site_categories
+ActiveScaffold: extending RESTful routes for site_categories
+ActiveScaffold: extending RESTful routes for ad_zone_categories
+ActiveScaffold: extending RESTful routes for display_zones
+ActiveScaffold: extending RESTful routes for targets
+ActiveScaffold: extending RESTful routes for sites
+ActiveScaffold: extending RESTful routes for advertisers
+ActiveScaffold: extending RESTful routes for networks
+ActiveScaffold: extending RESTful routes for publishers
+ActiveScaffold: extending RESTful routes for orders
+ActiveScaffold: extending RESTful routes for ad_boards
+ActiveScaffold: extending RESTful routes for ad_zones
+ActiveScaffold: extending RESTful routes for advertisements
+ActiveScaffold: extending RESTful routes for charge_cpts
+ActiveScaffold: extending RESTful routes for charge_cpms
+ActiveScaffold: extending RESTful routes for users
+ActiveScaffold: extending RESTful routes for campaigns
+action_view is patched by ext_rails
+ActiveScaffold: extending RESTful routes for ad_zone_categories
+ActiveScaffold: extending RESTful routes for site_categories
+ActiveScaffold: extending RESTful routes for site_categories
+ActiveScaffold: extending RESTful routes for ad_zone_categories
+ActiveScaffold: extending RESTful routes for display_zones
+ActiveScaffold: extending RESTful routes for targets
+ActiveScaffold: extending RESTful routes for sites
+ActiveScaffold: extending RESTful routes for advertisers
+ActiveScaffold: extending RESTful routes for networks
+ActiveScaffold: extending RESTful routes for publishers
+ActiveScaffold: extending RESTful routes for orders
+ActiveScaffold: extending RESTful routes for ad_boards
+ActiveScaffold: extending RESTful routes for ad_zones
+ActiveScaffold: extending RESTful routes for advertisements
+ActiveScaffold: extending RESTful routes for charge_cpts
+ActiveScaffold: extending RESTful routes for charge_cpms
+ActiveScaffold: extending RESTful routes for users
+ActiveScaffold: extending RESTful routes for campaigns
+action_view is patched by ext_rails
+ActiveScaffold: extending RESTful routes for ad_zone_categories
+ActiveScaffold: extending RESTful routes for site_categories
+ActiveScaffold: extending RESTful routes for site_categories
+ActiveScaffold: extending RESTful routes for ad_zone_categories
+ActiveScaffold: extending RESTful routes for display_zones
+ActiveScaffold: extending RESTful routes for targets
+ActiveScaffold: extending RESTful routes for sites
+ActiveScaffold: extending RESTful routes for advertisers
+ActiveScaffold: extending RESTful routes for networks
+ActiveScaffold: extending RESTful routes for publishers
+ActiveScaffold: extending RESTful routes for orders
+ActiveScaffold: extending RESTful routes for ad_boards
+ActiveScaffold: extending RESTful routes for ad_zones
+ActiveScaffold: extending RESTful routes for advertisements
+ActiveScaffold: extending RESTful routes for charge_cpts
+ActiveScaffold: extending RESTful routes for charge_cpms
+ActiveScaffold: extending RESTful routes for users
+ActiveScaffold: extending RESTful routes for campaigns
+action_view is patched by ext_rails
+ActiveScaffold: extending RESTful routes for ad_zone_categories
+ActiveScaffold: extending RESTful routes for site_categories
+ActiveScaffold: extending RESTful routes for site_categories
+ActiveScaffold: extending RESTful routes for ad_zone_categories
+ActiveScaffold: extending RESTful routes for display_zones
+ActiveScaffold: extending RESTful routes for targets
+ActiveScaffold: extending RESTful routes for sites
+ActiveScaffold: extending RESTful routes for advertisers
+ActiveScaffold: extending RESTful routes for networks
+ActiveScaffold: extending RESTful routes for publishers
+ActiveScaffold: extending RESTful routes for orders
+ActiveScaffold: extending RESTful routes for ad_boards
+ActiveScaffold: extending RESTful routes for ad_zones
+ActiveScaffold: extending RESTful routes for advertisements
+ActiveScaffold: extending RESTful routes for charge_cpts
+ActiveScaffold: extending RESTful routes for charge_cpms
+ActiveScaffold: extending RESTful routes for users
+ActiveScaffold: extending RESTful routes for campaigns
+action_view is patched by ext_rails
+ActiveScaffold: extending RESTful routes for ad_zone_categories
+ActiveScaffold: extending RESTful routes for site_categories
+ActiveScaffold: extending RESTful routes for site_categories
+ActiveScaffold: extending RESTful routes for ad_zone_categories
+ActiveScaffold: extending RESTful routes for display_zones
+ActiveScaffold: extending RESTful routes for targets
+ActiveScaffold: extending RESTful routes for sites
+ActiveScaffold: extending RESTful routes for advertisers
+ActiveScaffold: extending RESTful routes for networks
+ActiveScaffold: extending RESTful routes for publishers
+ActiveScaffold: extending RESTful routes for orders
+ActiveScaffold: extending RESTful routes for ad_boards
+ActiveScaffold: extending RESTful routes for ad_zones
+ActiveScaffold: extending RESTful routes for advertisements
+ActiveScaffold: extending RESTful routes for charge_cpts
+ActiveScaffold: extending RESTful routes for charge_cpms
+ActiveScaffold: extending RESTful routes for users
+ActiveScaffold: extending RESTful routes for campaigns
+action_view is patched by ext_rails
+ActiveScaffold: extending RESTful routes for ad_zone_categories
+ActiveScaffold: extending RESTful routes for site_categories
+ActiveScaffold: extending RESTful routes for site_categories
+ActiveScaffold: extending RESTful routes for ad_zone_categories
+ActiveScaffold: extending RESTful routes for display_zones
+ActiveScaffold: extending RESTful routes for targets
+ActiveScaffold: extending RESTful routes for sites
+ActiveScaffold: extending RESTful routes for advertisers
+ActiveScaffold: extending RESTful routes for networks
+ActiveScaffold: extending RESTful routes for publishers
+ActiveScaffold: extending RESTful routes for orders
+ActiveScaffold: extending RESTful routes for ad_boards
+ActiveScaffold: extending RESTful routes for ad_zones
+ActiveScaffold: extending RESTful routes for advertisements
+ActiveScaffold: extending RESTful routes for charge_cpts
+ActiveScaffold: extending RESTful routes for charge_cpms
+ActiveScaffold: extending RESTful routes for users
+ActiveScaffold: extending RESTful routes for campaigns
+action_view is patched by ext_rails
+ActiveScaffold: extending RESTful routes for ad_zone_categories
+ActiveScaffold: extending RESTful routes for site_categories
+ActiveScaffold: extending RESTful routes for site_categories
+ActiveScaffold: extending RESTful routes for ad_zone_categories
+ActiveScaffold: extending RESTful routes for display_zones
+ActiveScaffold: extending RESTful routes for targets
+ActiveScaffold: extending RESTful routes for sites
+ActiveScaffold: extending RESTful routes for advertisers
+ActiveScaffold: extending RESTful routes for networks
+ActiveScaffold: extending RESTful routes for publishers
+ActiveScaffold: extending RESTful routes for orders
+ActiveScaffold: extending RESTful routes for ad_boards
+ActiveScaffold: extending RESTful routes for ad_zones
+ActiveScaffold: extending RESTful routes for advertisements
+ActiveScaffold: extending RESTful routes for charge_cpts
+ActiveScaffold: extending RESTful routes for charge_cpms
+ActiveScaffold: extending RESTful routes for users
+ActiveScaffold: extending RESTful routes for campaigns
+action_view is patched by ext_rails
+ActiveScaffold: extending RESTful routes for ad_zone_categories
+ActiveScaffold: extending RESTful routes for site_categories
+ActiveScaffold: extending RESTful routes for site_categories
+ActiveScaffold: extending RESTful routes for ad_zone_categories
+ActiveScaffold: extending RESTful routes for display_zones
+ActiveScaffold: extending RESTful routes for targets
+ActiveScaffold: extending RESTful routes for sites
+ActiveScaffold: extending RESTful routes for advertisers
+ActiveScaffold: extending RESTful routes for networks
+ActiveScaffold: extending RESTful routes for publishers
+ActiveScaffold: extending RESTful routes for orders
+ActiveScaffold: extending RESTful routes for ad_boards
+ActiveScaffold: extending RESTful routes for ad_zones
+ActiveScaffold: extending RESTful routes for advertisements
+ActiveScaffold: extending RESTful routes for charge_cpts
+ActiveScaffold: extending RESTful routes for charge_cpms
+ActiveScaffold: extending RESTful routes for users
+ActiveScaffold: extending RESTful routes for campaigns
+action_view is patched by ext_rails
+ActiveScaffold: extending RESTful routes for ad_zone_categories
+ActiveScaffold: extending RESTful routes for site_categories
+ActiveScaffold: extending RESTful routes for site_categories
+ActiveScaffold: extending RESTful routes for ad_zone_categories
+ActiveScaffold: extending RESTful routes for display_zones
+ActiveScaffold: extending RESTful routes for targets
+ActiveScaffold: extending RESTful routes for sites
+ActiveScaffold: extending RESTful routes for advertisers
+ActiveScaffold: extending RESTful routes for networks
+ActiveScaffold: extending RESTful routes for publishers
+ActiveScaffold: extending RESTful routes for orders
+ActiveScaffold: extending RESTful routes for ad_boards
+ActiveScaffold: extending RESTful routes for ad_zones
+ActiveScaffold: extending RESTful routes for advertisements
+ActiveScaffold: extending RESTful routes for charge_cpts
+ActiveScaffold: extending RESTful routes for charge_cpms
+ActiveScaffold: extending RESTful routes for users
+ActiveScaffold: extending RESTful routes for campaigns
+action_view is patched by ext_rails
+ActiveScaffold: extending RESTful routes for ad_zone_categories
+ActiveScaffold: extending RESTful routes for site_categories
+ActiveScaffold: extending RESTful routes for site_categories
+ActiveScaffold: extending RESTful routes for ad_zone_categories
+ActiveScaffold: extending RESTful routes for display_zones
+ActiveScaffold: extending RESTful routes for targets
+ActiveScaffold: extending RESTful routes for sites
+ActiveScaffold: extending RESTful routes for advertisers
+ActiveScaffold: extending RESTful routes for networks
+ActiveScaffold: extending RESTful routes for publishers
+ActiveScaffold: extending RESTful routes for orders
+ActiveScaffold: extending RESTful routes for ad_boards
+ActiveScaffold: extending RESTful routes for ad_zones
+ActiveScaffold: extending RESTful routes for advertisements
+ActiveScaffold: extending RESTful routes for charge_cpts
+ActiveScaffold: extending RESTful routes for charge_cpms
+ActiveScaffold: extending RESTful routes for users
+ActiveScaffold: extending RESTful routes for campaigns
+action_view is patched by ext_rails
+ActiveScaffold: extending RESTful routes for ad_zone_categories
+ActiveScaffold: extending RESTful routes for site_categories
+ActiveScaffold: extending RESTful routes for site_categories
+ActiveScaffold: extending RESTful routes for ad_zone_categories
+ActiveScaffold: extending RESTful routes for display_zones
+ActiveScaffold: extending RESTful routes for targets
+ActiveScaffold: extending RESTful routes for sites
+ActiveScaffold: extending RESTful routes for advertisers
+ActiveScaffold: extending RESTful routes for networks
+ActiveScaffold: extending RESTful routes for publishers
+ActiveScaffold: extending RESTful routes for orders
+ActiveScaffold: extending RESTful routes for ad_boards
+ActiveScaffold: extending RESTful routes for ad_zones
+ActiveScaffold: extending RESTful routes for advertisements
+ActiveScaffold: extending RESTful routes for charge_cpts
+ActiveScaffold: extending RESTful routes for charge_cpms
+ActiveScaffold: extending RESTful routes for users
+ActiveScaffold: extending RESTful routes for campaigns
+action_view is patched by ext_rails
+ActiveScaffold: extending RESTful routes for ad_zone_categories
+ActiveScaffold: extending RESTful routes for site_categories
+ActiveScaffold: extending RESTful routes for site_categories
+ActiveScaffold: extending RESTful routes for ad_zone_categories
+ActiveScaffold: extending RESTful routes for display_zones
+ActiveScaffold: extending RESTful routes for targets
+ActiveScaffold: extending RESTful routes for sites
+ActiveScaffold: extending RESTful routes for advertisers
+ActiveScaffold: extending RESTful routes for networks
+ActiveScaffold: extending RESTful routes for publishers
+ActiveScaffold: extending RESTful routes for orders
+ActiveScaffold: extending RESTful routes for ad_boards
+ActiveScaffold: extending RESTful routes for ad_zones
+ActiveScaffold: extending RESTful routes for advertisements
+ActiveScaffold: extending RESTful routes for charge_cpts
+ActiveScaffold: extending RESTful routes for charge_cpms
+ActiveScaffold: extending RESTful routes for users
+ActiveScaffold: extending RESTful routes for campaigns
+action_view is patched by ext_rails
+ActiveScaffold: extending RESTful routes for ad_zone_categories
+ActiveScaffold: extending RESTful routes for site_categories
+ActiveScaffold: extending RESTful routes for site_categories
+ActiveScaffold: extending RESTful routes for ad_zone_categories
+ActiveScaffold: extending RESTful routes for display_zones
+ActiveScaffold: extending RESTful routes for targets
+ActiveScaffold: extending RESTful routes for sites
+ActiveScaffold: extending RESTful routes for advertisers
+ActiveScaffold: extending RESTful routes for networks
+ActiveScaffold: extending RESTful routes for publishers
+ActiveScaffold: extending RESTful routes for orders
+ActiveScaffold: extending RESTful routes for ad_boards
+ActiveScaffold: extending RESTful routes for ad_zones
+ActiveScaffold: extending RESTful routes for advertisements
+ActiveScaffold: extending RESTful routes for charge_cpts
+ActiveScaffold: extending RESTful routes for charge_cpms
+ActiveScaffold: extending RESTful routes for users
+ActiveScaffold: extending RESTful routes for campaigns
+action_view is patched by ext_rails
+ActiveScaffold: extending RESTful routes for ad_zone_categories
+ActiveScaffold: extending RESTful routes for site_categories
+ActiveScaffold: extending RESTful routes for site_categories
+ActiveScaffold: extending RESTful routes for ad_zone_categories
+ActiveScaffold: extending RESTful routes for display_zones
+ActiveScaffold: extending RESTful routes for targets
+ActiveScaffold: extending RESTful routes for sites
+ActiveScaffold: extending RESTful routes for advertisers
+ActiveScaffold: extending RESTful routes for networks
+ActiveScaffold: extending RESTful routes for publishers
+ActiveScaffold: extending RESTful routes for orders
+ActiveScaffold: extending RESTful routes for ad_boards
+ActiveScaffold: extending RESTful routes for ad_zones
+ActiveScaffold: extending RESTful routes for advertisements
+ActiveScaffold: extending RESTful routes for charge_cpts
+ActiveScaffold: extending RESTful routes for charge_cpms
+ActiveScaffold: extending RESTful routes for users
+ActiveScaffold: extending RESTful routes for campaigns
+action_view is patched by ext_rails
+ActiveScaffold: extending RESTful routes for ad_zone_categories
+ActiveScaffold: extending RESTful routes for site_categories
+ActiveScaffold: extending RESTful routes for site_categories
+ActiveScaffold: extending RESTful routes for ad_zone_categories
+ActiveScaffold: extending RESTful routes for display_zones
+ActiveScaffold: extending RESTful routes for targets
+ActiveScaffold: extending RESTful routes for sites
+ActiveScaffold: extending RESTful routes for advertisers
+ActiveScaffold: extending RESTful routes for networks
+ActiveScaffold: extending RESTful routes for publishers
+ActiveScaffold: extending RESTful routes for orders
+ActiveScaffold: extending RESTful routes for ad_boards
+ActiveScaffold: extending RESTful routes for ad_zones
+ActiveScaffold: extending RESTful routes for advertisements
+ActiveScaffold: extending RESTful routes for charge_cpts
+ActiveScaffold: extending RESTful routes for charge_cpms
+ActiveScaffold: extending RESTful routes for users
+ActiveScaffold: extending RESTful routes for campaigns
+action_view is patched by ext_rails
+ActiveScaffold: extending RESTful routes for ad_zone_categories
+ActiveScaffold: extending RESTful routes for site_categories
+ActiveScaffold: extending RESTful routes for site_categories
+ActiveScaffold: extending RESTful routes for ad_zone_categories
+ActiveScaffold: extending RESTful routes for display_zones
+ActiveScaffold: extending RESTful routes for targets
+ActiveScaffold: extending RESTful routes for sites
+ActiveScaffold: extending RESTful routes for advertisers
+ActiveScaffold: extending RESTful routes for networks
+ActiveScaffold: extending RESTful routes for publishers
+ActiveScaffold: extending RESTful routes for orders
+ActiveScaffold: extending RESTful routes for ad_boards
+ActiveScaffold: extending RESTful routes for ad_zones
+ActiveScaffold: extending RESTful routes for advertisements
+ActiveScaffold: extending RESTful routes for charge_cpts
+ActiveScaffold: extending RESTful routes for charge_cpms
+ActiveScaffold: extending RESTful routes for users
+ActiveScaffold: extending RESTful routes for campaigns
+action_view is patched by ext_rails
+ActiveScaffold: extending RESTful routes for ad_zone_categories
+ActiveScaffold: extending RESTful routes for site_categories
+ActiveScaffold: extending RESTful routes for site_categories
+ActiveScaffold: extending RESTful routes for ad_zone_categories
+ActiveScaffold: extending RESTful routes for display_zones
+ActiveScaffold: extending RESTful routes for targets
+ActiveScaffold: extending RESTful routes for sites
+ActiveScaffold: extending RESTful routes for advertisers
+ActiveScaffold: extending RESTful routes for networks
+ActiveScaffold: extending RESTful routes for publishers
+ActiveScaffold: extending RESTful routes for orders
+ActiveScaffold: extending RESTful routes for ad_boards
+ActiveScaffold: extending RESTful routes for ad_zones
+ActiveScaffold: extending RESTful routes for advertisements
+ActiveScaffold: extending RESTful routes for charge_cpts
+ActiveScaffold: extending RESTful routes for charge_cpms
+ActiveScaffold: extending RESTful routes for users
+ActiveScaffold: extending RESTful routes for campaigns
+action_view is patched by ext_rails
+ActiveScaffold: extending RESTful routes for ad_zone_categories
+ActiveScaffold: extending RESTful routes for site_categories
+ActiveScaffold: extending RESTful routes for site_categories
+ActiveScaffold: extending RESTful routes for ad_zone_categories
+ActiveScaffold: extending RESTful routes for display_zones
+ActiveScaffold: extending RESTful routes for targets
+ActiveScaffold: extending RESTful routes for sites
+ActiveScaffold: extending RESTful routes for advertisers
+ActiveScaffold: extending RESTful routes for networks
+ActiveScaffold: extending RESTful routes for publishers
+ActiveScaffold: extending RESTful routes for orders
+ActiveScaffold: extending RESTful routes for ad_boards
+ActiveScaffold: extending RESTful routes for ad_zones
+ActiveScaffold: extending RESTful routes for advertisements
+ActiveScaffold: extending RESTful routes for charge_cpts
+ActiveScaffold: extending RESTful routes for charge_cpms
+ActiveScaffold: extending RESTful routes for users
+ActiveScaffold: extending RESTful routes for campaigns
+
+
+Processing MembersController#index (for 127.0.0.1 at 2010-02-27 01:13:31) [GET]
+  [4;36;1mMember Load (1.5ms)[0m   [0;1mSELECT * FROM "cpx_members" [0m
+Rendering template within layouts/members
+Rendering members/index
+Completed in 60ms (View: 47, DB: 1) | 200 OK [http://localhost/]

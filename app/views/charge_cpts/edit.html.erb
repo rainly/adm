@@ -1,0 +1,20 @@
+<h1>Editing charge_cpt</h1>
+
+<% form_for(@charge_cpt) do |f| %>
+  <%= f.error_messages %>
+
+  <p>
+    <%= f.label :unit_price %><br />
+    <%= f.text_field :unit_price %>
+  </p>
+  <p>
+    <%= f.label :discount %><br />
+    <%= f.text_field :discount %>
+  </p>
+  <p>
+    <%= f.submit 'Update' %>
+  </p>
+<% end %>
+
+<%= link_to 'Show', @charge_cpt %> |
+<%= link_to 'Back', charge_cpts_path %>

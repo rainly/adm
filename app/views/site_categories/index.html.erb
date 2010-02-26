@@ -1,0 +1,22 @@
+<h1>Listing site_categories</h1>
+
+<table>
+  <tr>
+    <th>Name</th>
+    <th>Owner</th>
+  </tr>
+
+<% @site_categories.each do |site_category| %>
+  <tr>
+    <td><%=h site_category.name %></td>
+    <td><%=h site_category.owner_id %></td>
+    <td><%= link_to 'Show', site_category %></td>
+    <td><%= link_to 'Edit', edit_site_category_path(site_category) %></td>
+    <td><%= link_to 'Destroy', site_category, :confirm => 'Are you sure?', :method => :delete %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New site_category', new_site_category_path %>

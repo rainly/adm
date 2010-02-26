@@ -1,0 +1,18 @@
+<p>
+  <b>Name:</b>
+  <%=h @target_def.name %>
+</p>
+
+<p>
+  <b>Data type:</b>
+  <%=h @target_def.data_type %>
+</p>
+
+<p>
+  <b>Available value:</b>
+  <%=h @target_def.available_value %>
+</p>
+
+
+<%= link_to 'Edit', edit_target_def_path(@target_def) %> |
+<%= link_to 'Back', target_defs_path %>

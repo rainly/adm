@@ -1,0 +1,16 @@
+<h1>Editing ad_zone_status</h1>
+
+<% form_for(@ad_zone_status) do |f| %>
+  <%= f.error_messages %>
+
+  <p>
+    <%= f.label :name %><br />
+    <%= f.text_field :name %>
+  </p>
+  <p>
+    <%= f.submit 'Update' %>
+  </p>
+<% end %>
+
+<%= link_to 'Show', @ad_zone_status %> |
+<%= link_to 'Back', ad_zone_statuses_path %>

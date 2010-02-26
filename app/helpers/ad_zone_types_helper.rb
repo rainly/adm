@@ -1,0 +1,2 @@
+module AdZoneTypesHelper
+end

@@ -1,0 +1,28 @@
+<p>
+  <b>Unit price:</b>
+  <%=h @charge_cpm.unit_price %>
+</p>
+
+<p>
+  <b>Discount:</b>
+  <%=h @charge_cpm.discount %>
+</p>
+
+<p>
+  <b>Total budget:</b>
+  <%=h @charge_cpm.total_budget %>
+</p>
+
+<p>
+  <b>Priority:</b>
+  <%=h @charge_cpm.priority %>
+</p>
+
+<p>
+  <b>Daily threshold:</b>
+  <%=h @charge_cpm.daily_threshold %>
+</p>
+
+
+<%= link_to 'Edit', edit_charge_cpm_path(@charge_cpm) %> |
+<%= link_to 'Back', charge_cpms_path %>

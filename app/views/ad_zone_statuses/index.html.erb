@@ -1,0 +1,20 @@
+<h1>Listing ad_zone_statuses</h1>
+
+<table>
+  <tr>
+    <th>Name</th>
+  </tr>
+
+<% @ad_zone_statuses.each do |ad_zone_status| %>
+  <tr>
+    <td><%=h ad_zone_status.name %></td>
+    <td><%= link_to 'Show', ad_zone_status %></td>
+    <td><%= link_to 'Edit', edit_ad_zone_status_path(ad_zone_status) %></td>
+    <td><%= link_to 'Destroy', ad_zone_status, :confirm => 'Are you sure?', :method => :delete %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New ad_zone_status', new_ad_zone_status_path %>

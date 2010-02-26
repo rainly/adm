@@ -1,0 +1,13 @@
+<p>
+  <b>Name:</b>
+  <%=h @site_category.name %>
+</p>
+
+<p>
+  <b>Owner:</b>
+  <%=h @site_category.owner_id %>
+</p>
+
+
+<%= link_to 'Edit', edit_site_category_path(@site_category) %> |
+<%= link_to 'Back', site_categories_path %>

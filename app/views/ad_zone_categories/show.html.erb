@@ -1,0 +1,13 @@
+<p>
+  <b>Name:</b>
+  <%=h @ad_zone_category.name %>
+</p>
+
+<p>
+  <b>Owner:</b>
+  <%=h @ad_zone_category.owner_id %>
+</p>
+
+
+<%= link_to 'Edit', edit_ad_zone_category_path(@ad_zone_category) %> |
+<%= link_to 'Back', ad_zone_categories_path %>

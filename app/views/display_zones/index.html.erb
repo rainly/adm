@@ -1,0 +1,28 @@
+<h1>Listing display_zones</h1>
+
+<table>
+  <tr>
+    <th>Campaign</th>
+    <th>Ad zone</th>
+    <th>Expression</th>
+    <th>Name</th>
+    <th>Owner</th>
+  </tr>
+
+<% @display_zones.each do |display_zone| %>
+  <tr>
+    <td><%=h display_zone.campaign_id %></td>
+    <td><%=h display_zone.ad_zone_id %></td>
+    <td><%=h display_zone.expression %></td>
+    <td><%=h display_zone.name %></td>
+    <td><%=h display_zone.owner_id %></td>
+    <td><%= link_to 'Show', display_zone %></td>
+    <td><%= link_to 'Edit', edit_display_zone_path(display_zone) %></td>
+    <td><%= link_to 'Destroy', display_zone, :confirm => 'Are you sure?', :method => :delete %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New display_zone', new_display_zone_path %>

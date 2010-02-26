@@ -1,0 +1,34 @@
+<h1>Listing ad_boards</h1>
+
+<table>
+  <tr>
+    <th>Title</th>
+    <th>Size</th>
+    <th>Owner</th>
+    <th>Click url</th>
+    <th>Image path</th>
+    <th>Text</th>
+    <th>Js script</th>
+    <th>Alt</th>
+  </tr>
+
+<% @ad_boards.each do |ad_board| %>
+  <tr>
+    <td><%=h ad_board.title %></td>
+    <td><%=h ad_board.size %></td>
+    <td><%=h ad_board.owner_id %></td>
+    <td><%=h ad_board.click_url %></td>
+    <td><%=h ad_board.image_path %></td>
+    <td><%=h ad_board.text %></td>
+    <td><%=h ad_board.js_script %></td>
+    <td><%=h ad_board.alt %></td>
+    <td><%= link_to 'Show', ad_board %></td>
+    <td><%= link_to 'Edit', edit_ad_board_path(ad_board) %></td>
+    <td><%= link_to 'Destroy', ad_board, :confirm => 'Are you sure?', :method => :delete %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New ad_board', new_ad_board_path %>

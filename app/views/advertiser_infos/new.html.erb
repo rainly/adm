@@ -1,0 +1,27 @@
+<h1>New advertiser_info</h1>
+
+<% form_for(@advertiser_info) do |f| %>
+  <%= f.error_messages %>
+
+  <p>
+    <%= f.label :owner_id %><br />
+    <%= f.text_field :owner_id %>
+  </p>
+  <p>
+    <%= f.label :real_user_id %><br />
+    <%= f.text_field :real_user_id %>
+  </p>
+  <p>
+    <%= f.label :network_id %><br />
+    <%= f.text_field :network_id %>
+  </p>
+  <p>
+    <%= f.label :name %><br />
+    <%= f.text_field :name %>
+  </p>
+  <p>
+    <%= f.submit 'Create' %>
+  </p>
+<% end %>
+
+<%= link_to 'Back', advertiser_infos_path %>

@@ -1,0 +1,24 @@
+<h1>Listing target_defs</h1>
+
+<table>
+  <tr>
+    <th>Name</th>
+    <th>Data type</th>
+    <th>Available value</th>
+  </tr>
+
+<% @target_defs.each do |target_def| %>
+  <tr>
+    <td><%=h target_def.name %></td>
+    <td><%=h target_def.data_type %></td>
+    <td><%=h target_def.available_value %></td>
+    <td><%= link_to 'Show', target_def %></td>
+    <td><%= link_to 'Edit', edit_target_def_path(target_def) %></td>
+    <td><%= link_to 'Destroy', target_def, :confirm => 'Are you sure?', :method => :delete %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New target_def', new_target_def_path %>

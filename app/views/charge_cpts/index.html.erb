@@ -1,0 +1,22 @@
+<h1>Listing charge_cpts</h1>
+
+<table>
+  <tr>
+    <th>Unit price</th>
+    <th>Discount</th>
+  </tr>
+
+<% @charge_cpts.each do |charge_cpt| %>
+  <tr>
+    <td><%=h charge_cpt.unit_price %></td>
+    <td><%=h charge_cpt.discount %></td>
+    <td><%= link_to 'Show', charge_cpt %></td>
+    <td><%= link_to 'Edit', edit_charge_cpt_path(charge_cpt) %></td>
+    <td><%= link_to 'Destroy', charge_cpt, :confirm => 'Are you sure?', :method => :delete %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New charge_cpt', new_charge_cpt_path %>

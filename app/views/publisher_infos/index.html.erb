@@ -1,0 +1,26 @@
+<h1>Listing publisher_infos</h1>
+
+<table>
+  <tr>
+    <th>Name</th>
+    <th>Owner</th>
+    <th>Real user</th>
+    <th>Network</th>
+  </tr>
+
+<% @publisher_infos.each do |publisher_info| %>
+  <tr>
+    <td><%=h publisher_info.name %></td>
+    <td><%=h publisher_info.owner_id %></td>
+    <td><%=h publisher_info.real_user_id %></td>
+    <td><%=h publisher_info.network_id %></td>
+    <td><%= link_to 'Show', publisher_info %></td>
+    <td><%= link_to 'Edit', edit_publisher_info_path(publisher_info) %></td>
+    <td><%= link_to 'Destroy', publisher_info, :confirm => 'Are you sure?', :method => :delete %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New publisher_info', new_publisher_info_path %>

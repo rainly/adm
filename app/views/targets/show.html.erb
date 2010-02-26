@@ -1,0 +1,23 @@
+<p>
+  <b>Name:</b>
+  <%=h @target.name %>
+</p>
+
+<p>
+  <b>Value:</b>
+  <%=h @target.value %>
+</p>
+
+<p>
+  <b>Campaign:</b>
+  <%=h @target.campaign_id %>
+</p>
+
+<p>
+  <b>Def:</b>
+  <%=h @target.def_id %>
+</p>
+
+
+<%= link_to 'Edit', edit_target_path(@target) %> |
+<%= link_to 'Back', targets_path %>

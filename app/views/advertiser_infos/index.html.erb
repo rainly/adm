@@ -1,0 +1,26 @@
+<h1>Listing advertiser_infos</h1>
+
+<table>
+  <tr>
+    <th>Owner</th>
+    <th>Real user</th>
+    <th>Network</th>
+    <th>Name</th>
+  </tr>
+
+<% @advertiser_infos.each do |advertiser_info| %>
+  <tr>
+    <td><%=h advertiser_info.owner_id %></td>
+    <td><%=h advertiser_info.real_user_id %></td>
+    <td><%=h advertiser_info.network_id %></td>
+    <td><%=h advertiser_info.name %></td>
+    <td><%= link_to 'Show', advertiser_info %></td>
+    <td><%= link_to 'Edit', edit_advertiser_info_path(advertiser_info) %></td>
+    <td><%= link_to 'Destroy', advertiser_info, :confirm => 'Are you sure?', :method => :delete %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New advertiser_info', new_advertiser_info_path %>

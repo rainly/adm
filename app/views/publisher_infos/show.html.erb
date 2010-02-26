@@ -1,0 +1,23 @@
+<p>
+  <b>Name:</b>
+  <%=h @publisher_info.name %>
+</p>
+
+<p>
+  <b>Owner:</b>
+  <%=h @publisher_info.owner_id %>
+</p>
+
+<p>
+  <b>Real user:</b>
+  <%=h @publisher_info.real_user_id %>
+</p>
+
+<p>
+  <b>Network:</b>
+  <%=h @publisher_info.network_id %>
+</p>
+
+
+<%= link_to 'Edit', edit_publisher_info_path(@publisher_info) %> |
+<%= link_to 'Back', publisher_infos_path %>

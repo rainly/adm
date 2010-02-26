@@ -1,0 +1,43 @@
+<p>
+  <b>Title:</b>
+  <%=h @ad_board.title %>
+</p>
+
+<p>
+  <b>Size:</b>
+  <%=h @ad_board.size %>
+</p>
+
+<p>
+  <b>Owner:</b>
+  <%=h @ad_board.owner_id %>
+</p>
+
+<p>
+  <b>Click url:</b>
+  <%=h @ad_board.click_url %>
+</p>
+
+<p>
+  <b>Image path:</b>
+  <%=h @ad_board.image_path %>
+</p>
+
+<p>
+  <b>Text:</b>
+  <%=h @ad_board.text %>
+</p>
+
+<p>
+  <b>Js script:</b>
+  <%=h @ad_board.js_script %>
+</p>
+
+<p>
+  <b>Alt:</b>
+  <%=h @ad_board.alt %>
+</p>
+
+
+<%= link_to 'Edit', edit_ad_board_path(@ad_board) %> |
+<%= link_to 'Back', ad_boards_path %>

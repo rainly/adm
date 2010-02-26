@@ -1,0 +1,43 @@
+<p>
+  <b>Name:</b>
+  <%=h @member.name %>
+</p>
+
+<p>
+  <b>Master:</b>
+  <%=h @member.master_id %>
+</p>
+
+<p>
+  <b>Company name:</b>
+  <%=h @member.company_name %>
+</p>
+
+<p>
+  <b>Telephone:</b>
+  <%=h @member.telephone %>
+</p>
+
+<p>
+  <b>Mobile no:</b>
+  <%=h @member.mobile_no %>
+</p>
+
+<p>
+  <b>Address:</b>
+  <%=h @member.address %>
+</p>
+
+<p>
+  <b>Email:</b>
+  <%=h @member.email %>
+</p>
+
+<p>
+  <b>Comment:</b>
+  <%=h @member.comment %>
+</p>
+
+
+<%= link_to 'Edit', edit_member_path(@member) %> |
+<%= link_to 'Back', members_path %>

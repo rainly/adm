@@ -1,0 +1,26 @@
+<h1>Listing targets</h1>
+
+<table>
+  <tr>
+    <th>Name</th>
+    <th>Value</th>
+    <th>Campaign</th>
+    <th>Def</th>
+  </tr>
+
+<% @targets.each do |target| %>
+  <tr>
+    <td><%=h target.name %></td>
+    <td><%=h target.value %></td>
+    <td><%=h target.campaign_id %></td>
+    <td><%=h target.def_id %></td>
+    <td><%= link_to 'Show', target %></td>
+    <td><%= link_to 'Edit', edit_target_path(target) %></td>
+    <td><%= link_to 'Destroy', target, :confirm => 'Are you sure?', :method => :delete %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New target', new_target_path %>

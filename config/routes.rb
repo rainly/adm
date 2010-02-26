@@ -1,4 +1,50 @@
 ActionController::Routing::Routes.draw do |map|
+  map.resources :ad_zone_categories
+
+  map.resources :site_categories
+
+  map.resources :target_defs
+
+  map.resources :ad_zone_statuses
+
+  map.resources :ad_zone_types
+
+  map.resources :order_statuses
+
+  map.resources :display_zones
+
+  map.resources :targets
+
+  map.resources :sites
+
+  map.resources :ad_boards_campaigns
+
+  map.resources :ad_boards
+
+  map.resources :ad_zones
+
+  map.resources :charge_cpts
+
+  map.resources :charge_cpms
+
+  map.resources :campaigns
+
+  map.resources :orders
+
+  map.resources :advertiser_infos
+
+  map.resources :publisher_infos
+
+  map.resources :networks
+
+  map.resources :members
+
+  map.resources :members
+
+  map.resources :members
+
+  map.resources :members
+
   map.resources :ad_zone_categories, :active_scaffold => true
 
   map.resources :site_categories, :active_scaffold => true

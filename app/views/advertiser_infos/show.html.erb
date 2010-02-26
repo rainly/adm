@@ -1,0 +1,23 @@
+<p>
+  <b>Owner:</b>
+  <%=h @advertiser_info.owner_id %>
+</p>
+
+<p>
+  <b>Real user:</b>
+  <%=h @advertiser_info.real_user_id %>
+</p>
+
+<p>
+  <b>Network:</b>
+  <%=h @advertiser_info.network_id %>
+</p>
+
+<p>
+  <b>Name:</b>
+  <%=h @advertiser_info.name %>
+</p>
+
+
+<%= link_to 'Edit', edit_advertiser_info_path(@advertiser_info) %> |
+<%= link_to 'Back', advertiser_infos_path %>

@@ -1,0 +1,20 @@
+<h1>Editing ad_boards_campaign</h1>
+
+<% form_for(@ad_boards_campaign) do |f| %>
+  <%= f.error_messages %>
+
+  <p>
+    <%= f.label :campaign_id %><br />
+    <%= f.text_field :campaign_id %>
+  </p>
+  <p>
+    <%= f.label :ad_board_id %><br />
+    <%= f.text_field :ad_board_id %>
+  </p>
+  <p>
+    <%= f.submit 'Update' %>
+  </p>
+<% end %>
+
+<%= link_to 'Show', @ad_boards_campaign %> |
+<%= link_to 'Back', ad_boards_campaigns_path %>

@@ -1,0 +1,16 @@
+<h1>Editing order_status</h1>
+
+<% form_for(@order_status) do |f| %>
+  <%= f.error_messages %>
+
+  <p>
+    <%= f.label :value %><br />
+    <%= f.text_field :value %>
+  </p>
+  <p>
+    <%= f.submit 'Update' %>
+  </p>
+<% end %>
+
+<%= link_to 'Show', @order_status %> |
+<%= link_to 'Back', order_statuses_path %>

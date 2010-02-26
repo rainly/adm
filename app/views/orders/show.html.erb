@@ -1,0 +1,48 @@
+<p>
+  <b>Name:</b>
+  <%=h @order.name %>
+</p>
+
+<p>
+  <b>Advertiser:</b>
+  <%=h @order.advertiser_id %>
+</p>
+
+<p>
+  <b>Owner:</b>
+  <%=h @order.owner_id %>
+</p>
+
+<p>
+  <b>Status:</b>
+  <%=h @order.status_id %>
+</p>
+
+<p>
+  <b>Start date:</b>
+  <%=h @order.start_date %>
+</p>
+
+<p>
+  <b>End date:</b>
+  <%=h @order.end_date %>
+</p>
+
+<p>
+  <b>Referer:</b>
+  <%=h @order.referer %>
+</p>
+
+<p>
+  <b>Weight:</b>
+  <%=h @order.weight %>
+</p>
+
+<p>
+  <b>Comment:</b>
+  <%=h @order.comment %>
+</p>
+
+
+<%= link_to 'Edit', edit_order_path(@order) %> |
+<%= link_to 'Back', orders_path %>

@@ -1,0 +1,22 @@
+<h1>Listing ad_boards_campaigns</h1>
+
+<table>
+  <tr>
+    <th>Campaign</th>
+    <th>Ad board</th>
+  </tr>
+
+<% @ad_boards_campaigns.each do |ad_boards_campaign| %>
+  <tr>
+    <td><%=h ad_boards_campaign.campaign_id %></td>
+    <td><%=h ad_boards_campaign.ad_board_id %></td>
+    <td><%= link_to 'Show', ad_boards_campaign %></td>
+    <td><%= link_to 'Edit', edit_ad_boards_campaign_path(ad_boards_campaign) %></td>
+    <td><%= link_to 'Destroy', ad_boards_campaign, :confirm => 'Are you sure?', :method => :delete %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New ad_boards_campaign', new_ad_boards_campaign_path %>
