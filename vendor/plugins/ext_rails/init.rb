@@ -1,0 +1,1 @@
+require 'ext_rails'

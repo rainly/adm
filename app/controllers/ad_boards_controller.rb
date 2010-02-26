@@ -1,0 +1,2 @@
+class AdBoardsController < ApplicationController
+end

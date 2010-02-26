@@ -1,0 +1,11 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  ad_zone_id: 1
+  expression: MyString
+  name: MyString
+
+two:
+  ad_zone_id: 1
+  expression: MyString
+  name: MyString

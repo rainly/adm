@@ -1,0 +1,11 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  unit_price: 1
+  discount: 1
+  total_budget: 1
+
+two:
+  unit_price: 1
+  discount: 1
+  total_budget: 1

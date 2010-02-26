@@ -1,0 +1,19 @@
+# Logfile created on Fri Feb 26 23:07:07 +0800 2010action_view is patched by ext_rails
+ActiveScaffold: extending RESTful routes for ad_zone_categories
+ActiveScaffold: extending RESTful routes for site_categories
+ActiveScaffold: extending RESTful routes for site_categories
+ActiveScaffold: extending RESTful routes for ad_zone_categories
+ActiveScaffold: extending RESTful routes for display_zones
+ActiveScaffold: extending RESTful routes for targets
+ActiveScaffold: extending RESTful routes for sites
+ActiveScaffold: extending RESTful routes for advertisers
+ActiveScaffold: extending RESTful routes for networks
+ActiveScaffold: extending RESTful routes for publishers
+ActiveScaffold: extending RESTful routes for orders
+ActiveScaffold: extending RESTful routes for ad_boards
+ActiveScaffold: extending RESTful routes for ad_zones
+ActiveScaffold: extending RESTful routes for advertisements
+ActiveScaffold: extending RESTful routes for charge_cpts
+ActiveScaffold: extending RESTful routes for charge_cpms
+ActiveScaffold: extending RESTful routes for users
+ActiveScaffold: extending RESTful routes for campaigns

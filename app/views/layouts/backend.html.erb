@@ -1,0 +1,57 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+       "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+  <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+  <title><%= controller.action_name %></title>
+  <%= javascript_include_tag :defaults %>
+  <%= active_scaffold_includes %>
+  <%= stylesheet_link_tag 'application' %>
+</head>
+<body>
+<div id="main_container">
+
+	<!--div id="header">
+    <div class="logo">
+    <a href="index.html"><img src="images/logo.png" width="221" height="91" alt="" title="" border="0" /></a>
+    </div>
+    
+    <div id="menu_tab">                                     
+      <ul class="menu">
+	      <li class="divider"><li>
+				<li><a href="../" class="nav_selected"> 首页 </a></li>
+      </ul>
+    </div>
+            
+    <div class="search_tab">
+		  <input type="text" class="search" value="search" />
+		  <input type="image" src="images/search.gif" class="search_bt" />
+    </div>
+    
+  </div-->
+    
+  <div id="main_content">
+    <div class="left_sidebar">
+      <div id="left_menu">
+        <ul>
+          <% [Member, Network].each{|item| %>
+            <li><%=link_to item.human_name, :controller => item.to_s.tableize.to_sym %></li>
+          <% } %>
+        </ul>
+      </div>
+   </div>
+        
+        
+	<div id="center_content">
+    <%= yield  %>
+  </div>
+    
+	<div class="clear"></div>
+  <div id="footer">
+    TanX backend Demo <%=link_to "用户前端", :controller => "advertiser_infos" %>
+  </div>
+</div>
+
+</body>
+</html>

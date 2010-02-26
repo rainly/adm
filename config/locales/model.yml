@@ -1,0 +1,82 @@
+# Sample localization file for English. Add more files in this directory for other locales.
+# See http://github.com/svenfuchs/rails-i18n/tree/master/rails%2Flocale for starting points.
+
+"cn":
+  activerecord:
+    models:
+      campaign: "投放计划"
+      order: "订单"
+      member: "用户"
+      charge_cpt: "CPT计费模式"
+      charge_cpm: "CPM计费模式"
+      ad_zone: "广告位"
+      ad_board: "广告牌"
+      network: "广告网络"
+      advertiser_info: "广告主信息"
+      publisher_info: "网站主信息"
+    attributes:
+      network:
+        name: "名称"
+        master: "负责人"
+        advertisers: "广告主"
+        publishers: "网站主"
+        
+      advertiser_info:
+        name: "名称"
+        network: "所属网络"
+        owner: "负责人"
+        real_user: "系统用户"
+      publisher_info:
+        name: "名称"
+        network: "所属网络"
+        owner: "负责人"
+        real_user: "系统用户"
+      order:
+        advertiser: "广告主"
+        name: "名称"
+        owner: "负责人"
+        start_date: 开始时间
+        end_date: 结束时间
+        status: 状态
+        comment: "说明"
+      campaign:
+        name: "计划名称"
+        charge_type: "计费方式"
+        creator: "创建者"
+        start_date: "起始日"
+        end_date: "截止日"
+        charge: "计费信息"
+      member:
+        id: "编号"
+        name: "用户名"
+        master: "主用户"
+        members: "子用户"
+        comment: "说明"
+      charge_cpt:
+        unit_price: "单价"
+        discount: "折扣(率)"
+        total_budget: "投放限额"
+      charge_cpm:
+        unit_price: "单价"
+        discount: "折扣(率)"
+        total_budget: "投放限额"
+      ad_zone:
+        name: "名称"
+        size: "尺寸规格"
+        category: "分类"
+        description: "描述"
+        owner: "负责人"
+        site: "网站"
+        status: "状态"
+        charge_type: "计费方式"
+      ad_board:
+        title: "标题"
+        size: "尺寸规格"
+        type: "广告牌类型"
+        click_url: "点击链接"
+        image_path: "图片地址"
+        text: "文字广告"
+        js_script: "广告脚本"
+        alt: "图片提示"
+      
+
