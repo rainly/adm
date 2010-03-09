@@ -1,18 +1,13 @@
-<h1>Listing members</h1>
-
+<h1><%=box_scaffold_config.clazz.human_name%></h1>
+<%= link_to 'New member', box_scaffold_config.new_path %>
 <table>
   <tr>
-    <th>Name</th>
-    <th>Master</th>
-    <th>Company name</th>
-    <th>Telephone</th>
-    <th>Mobile no</th>
-    <th>Address</th>
-    <th>Email</th>
-    <th>Comment</th>
+    <% box_scaffold_config.clazz.columns.each {|column| %>
+      <th><%=box_scaffold_config.clazz.human_attribute_name(column.name) %></th>
+    <% } %>
   </tr>
 
-<% @members.each do |member| %>
+<% @list.each do |member| %>
   <tr>
     <td><%=h member.name %></td>
     <td><%=h member.master_id %></td>
@@ -31,4 +26,4 @@
 
 <br />
 
-<%= link_to 'New member', new_member_path %>
+

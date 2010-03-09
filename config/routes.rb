@@ -27,7 +27,7 @@ ActionController::Routing::Routes.draw do |map|
 
   map.resources :charge_cpms
 
-  map.resources :campaigns
+  map.resources :campaigns, :active_scaffold => true
 
   map.resources :orders
 
@@ -35,7 +35,7 @@ ActionController::Routing::Routes.draw do |map|
 
   map.resources :publisher_infos
 
-  map.resources :networks
+  map.resources :networks, :active_scaffold => true
 
   map.resources :members
 

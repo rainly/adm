@@ -16,7 +16,6 @@ ActiveRecord::Schema.define(:version => 20100223124643) do
     t.string   "size"
     t.integer  "owner_id"
     t.string   "click_url"
-    t.string   "type"
     t.string   "image_path"
     t.string   "text"
     t.string   "js_script"

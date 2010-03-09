@@ -1,15 +1,18 @@
 class MembersController < ApplicationController
-  # GET /members
-  # GET /members.xml
-  def index
-    @members = Member.all
 
-    respond_to do |format|
-      format.html # index.html.erb
-      format.xml  { render :xml => @members }
-    end
-  end
+  box_scaffold :member
 
+#  # GET /members
+#  # GET /members.xml
+#  def index
+#    @members = Member.paginate :page => params[:page], :per_page => 2
+#
+#    respond_to do |format|
+#      format.html # index.html.erb
+#      format.xml  { render :xml => @members }
+#    end
+#  end
+#
   # GET /members/1
   # GET /members/1.xml
   def show
