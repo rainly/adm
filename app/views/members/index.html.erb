@@ -7,19 +7,14 @@
     <% } %>
   </tr>
 
-<% @list.each do |member| %>
+<% @list.each do |a_obj| %>
   <tr>
-    <td><%=h member.name %></td>
-    <td><%=h member.master_id %></td>
-    <td><%=h member.company_name %></td>
-    <td><%=h member.telephone %></td>
-    <td><%=h member.mobile_no %></td>
-    <td><%=h member.address %></td>
-    <td><%=h member.email %></td>
-    <td><%=h member.comment %></td>
-    <td><%= link_to 'Show', member %></td>
-    <td><%= link_to 'Edit', edit_member_path(member) %></td>
-    <td><%= link_to 'Destroy', member, :confirm => 'Are you sure?', :method => :delete %></td>
+    <% box_scaffold_config.clazz.columns.each {|column| %>
+    <td><%=h a_obj.send(column.name) %></td>
+    <% } %>
+    <% box_scaffold_config.links.each{ |link| %>
+      <td><%=link_to link[:label], link[:url] %></td>
+    <%  } %>
   </tr>
 <% end %>
 </table>
