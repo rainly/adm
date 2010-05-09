@@ -1,0 +1,3 @@
+[submodule "vendor/plugins/ext_rails"]
+	path = vendor/plugins/ext_rails
+	url = git@github.com:fsword/ext_rails.git
