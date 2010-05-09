@@ -1,12 +1,18 @@
 # SQLite version 3.x
 #   gem install sqlite3-ruby (not necessary on OS X Leopard)
 defaults: &defaults
+#  adapter: jdbc
+#  url: jdbc:oracle:thin:@119.42.225.77:1521:alimmdb1
+#  driver: oracle.jdbc.OracleDriver
+#  username: Tanx
+#  password: Tanx
 #  adapter: oracle
 #  host: 119.42.225.77
 #  port: 1521
 #  database: alimmdb1
-#  username: alimm
-#  password: alimm
+#  username: Tanx
+#  password: Tanx
+#  adapter: jdbcsqlite3
   adapter: sqlite3
   database: db/development.sqlite3
   pool: 5
