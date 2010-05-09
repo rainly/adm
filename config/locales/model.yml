@@ -51,6 +51,8 @@
         name: "用户名"
         master: "主用户"
         members: "子用户"
+        company: "公司"
+        mobile_no: "手机号"
         comment: "说明"
       charge_cpt:
         unit_price: "单价"
